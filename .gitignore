@@ -1,3 +1,4 @@
 volumes
 demo.db
 embed-model.tar.gz
+.env
