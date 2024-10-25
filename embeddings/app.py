@@ -47,7 +47,7 @@ def preprocess_logs(log_data):
     log_message_clean = log_message.replace(f'[{log_level}]', '').strip()
 
     full_log_message = (f"[{log_level}] {log_message_clean} | "
-                        f"Container: {container_name}, app: {app}, Namespace: {namespace}, Timestamp: {timestamp}")
+                        f"Container: {container_name}, App: {app}, Namespace: {namespace}")
 
     timestamp_epoch = convert_to_epoch(timestamp)
 
